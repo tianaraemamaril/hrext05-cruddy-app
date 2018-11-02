@@ -2,15 +2,15 @@
 
 #### Basic Improvements (requirements)
 
-- [ ] create indivdiual items
+- [X] create indivdiual items
 - [ ] delete individual items
-- [ ] edit individual items
+- [X] edit individual items
 
 ##### Notes
 - [ ] Keep DOM and localStorage matching  // store objects 
-- [ ] Remember event Delegation when adding new items to .show-text
-- [ ] make sure we do not duplicate data
-- [ ] add different values to the item
+- [ ] Remember event Delegation when adding new items to .show-text // ??
+- [X] make sure we do not duplicate data
+- [X] add different values to the item
 
   ex.
 ```javascript
@@ -33,9 +33,16 @@
 
 #### My Spin
 (to be filled out by you)
-- [ ] create bears
-- [ ] feed / steal food from bears
-- [ ] delete bears
+- [X] create bears
+- [X] feed / steal food from bears
+- [X] delete bears
+
+<!--
+  // still need to center bears
+  // delete individual bears
+    // update: button clearing all bears - find out how to clear individual items in local storage
+  // get correct value so bear resizes after the object has been deleted
+-->  
 
 <!-- 
 PLAN
@@ -45,7 +52,7 @@ Cruddy App
 BEAR GAME
 Create - bears to be fed food items 
 
-Pooh - Honey // button in shape of honey
+Pooh - Honey // button in shape of honey // no time to make it fancy with the food photos  :(  or to add the sleeping Zzz's
 Paddinton - Marmalade
 Volibear - Teemo
 

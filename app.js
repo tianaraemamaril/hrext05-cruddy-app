@@ -111,6 +111,10 @@ $(document).ready(function(){
   ///////////////////////////////////////
 
   // listen for click event (del)
+
+  /*
+
+
   $('#delete').on('click', function(){
     // clears local storage of saved info
     localStorage.clear();
@@ -132,6 +136,38 @@ $(document).ready(function(){
     // timesEaten === 0 needs to have a 
     
   });
+
+
+  */
+
+  $('#delete-paddington').on('click', function(){
+
+      localStorage.clear();
+      paddington = createBear('Paddington', 'marmalade');
+      $('#Paddington').css({transform: 'rotate(0deg)'}); 
+      
+  });
+
+  $('#delete-pooh').on('click', function(){
+
+      localStorage.clear();
+      pooh = createBear('Pooh', 'marmalade');
+      $('#Pooh').css({transform: 'rotate(0deg)'}); 
+      
+  });
+
+  $('#delete-volibear').on('click', function(){
+
+      localStorage.clear();
+      volibear = createBear('Volibear', 'marmalade');
+      $('#Volibear').css({transform: 'rotate(0deg)'}); 
+      
+  });
+
+
+
+
+
 
   $('#feed-paddington').on('click', function(){
     feed(paddington);
