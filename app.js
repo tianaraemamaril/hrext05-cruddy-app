@@ -16,14 +16,13 @@ $(document).ready(function(){
   var createBear = function (name, food) {
 
     $('#' + name).css({height: '50%', width: '50%'});
+    $('#' + name).css({transform: 'rotate(0deg)'}); 
 
     return {
       name: name,
       food: food,
       timesEaten: 0
     }
-
-
 
   };
 
@@ -153,7 +152,7 @@ $(document).ready(function(){
       localStorage.removeItem('Paddington');
 
       paddington = createBear('Paddington', 'marmalade');
-      $('#Paddington').css({transform: 'rotate(0deg)'}); 
+    
       
   });
 
@@ -162,7 +161,7 @@ $(document).ready(function(){
       localStorage.removeItem('Pooh');
 
       pooh = createBear('Pooh', 'marmalade');
-      $('#Pooh').css({transform: 'rotate(0deg)'}); 
+    
       
   });
 
@@ -171,7 +170,7 @@ $(document).ready(function(){
       localStorage.removeItem('Volibear');
 
       volibear = createBear('Volibear', 'marmalade');
-      $('#Volibear').css({transform: 'rotate(0deg)'}); 
+ 
       
   });
 

@@ -42,9 +42,11 @@
   // delete individual bears x
     // update: button clearing all bears - find out how to clear individual items in local storage x
 
-    //localStorage.removeItem(key); 
+    // localStorage.removeItem(key); 
 
   // get correct value so bear resizes after the object has been deleted x
+
+  // stop bears from changing sizes after food coma hits
 -->  
 
 <!-- 
