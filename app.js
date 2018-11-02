@@ -150,30 +150,23 @@ $(document).ready(function(){
   $('#delete-paddington').on('click', function(){
 
       localStorage.removeItem('Paddington');
-
       paddington = createBear('Paddington', 'marmalade');
     
-      
   });
 
   $('#delete-pooh').on('click', function(){
 
       localStorage.removeItem('Pooh');
-
       pooh = createBear('Pooh', 'marmalade');
-    
       
   });
 
   $('#delete-volibear').on('click', function(){
 
       localStorage.removeItem('Volibear');
-
       volibear = createBear('Volibear', 'marmalade');
  
-      
   });
-
 
 
 
