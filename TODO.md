@@ -3,12 +3,12 @@
 #### Basic Improvements (requirements)
 
 - [X] create indivdiual items
-- [ ] delete individual items
+- [X] delete individual items
 - [X] edit individual items
 
 ##### Notes
-- [ ] Keep DOM and localStorage matching  // store objects 
-- [ ] Remember event Delegation when adding new items to .show-text // ??
+- [X] Keep DOM and localStorage matching  
+- [ ] Remember event Delegation when adding new items to .show-text // ?? 
 - [X] make sure we do not duplicate data
 - [X] add different values to the item
 
@@ -39,12 +39,12 @@
 
 <!--
   // still need to center bears
-  // delete individual bears
-    // update: button clearing all bears - find out how to clear individual items in local storage
+  // delete individual bears x
+    // update: button clearing all bears - find out how to clear individual items in local storage x
 
-    //localStorage.removeItem(key);
+    //localStorage.removeItem(key); 
 
-  // get correct value so bear resizes after the object has been deleted
+  // get correct value so bear resizes after the object has been deleted x
 -->  
 
 <!-- 

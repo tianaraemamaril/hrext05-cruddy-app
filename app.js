@@ -15,11 +15,15 @@ $(document).ready(function(){
 
   var createBear = function (name, food) {
 
+    $('#' + name).css({height: '50%', width: '50%'});
+
     return {
       name: name,
       food: food,
       timesEaten: 0
     }
+
+
 
   };
 
