@@ -140,9 +140,14 @@ $(document).ready(function(){
 
   */
 
+/*
+  localStorage.removeItem(key);
+*/  
+
   $('#delete-paddington').on('click', function(){
 
-      localStorage.clear();
+      localStorage.removeItem('Paddington');
+
       paddington = createBear('Paddington', 'marmalade');
       $('#Paddington').css({transform: 'rotate(0deg)'}); 
       
@@ -150,7 +155,8 @@ $(document).ready(function(){
 
   $('#delete-pooh').on('click', function(){
 
-      localStorage.clear();
+      localStorage.removeItem('Pooh');
+
       pooh = createBear('Pooh', 'marmalade');
       $('#Pooh').css({transform: 'rotate(0deg)'}); 
       
@@ -158,7 +164,8 @@ $(document).ready(function(){
 
   $('#delete-volibear').on('click', function(){
 
-      localStorage.clear();
+      localStorage.removeItem('Volibear');
+
       volibear = createBear('Volibear', 'marmalade');
       $('#Volibear').css({transform: 'rotate(0deg)'}); 
       

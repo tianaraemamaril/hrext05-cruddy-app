@@ -41,6 +41,9 @@
   // still need to center bears
   // delete individual bears
     // update: button clearing all bears - find out how to clear individual items in local storage
+
+    //localStorage.removeItem(key);
+
   // get correct value so bear resizes after the object has been deleted
 -->  
 
