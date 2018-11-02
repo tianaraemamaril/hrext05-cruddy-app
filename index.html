@@ -1,15 +1,82 @@
 <!DOCTYPE html>
 <html>
+
+
   <head>
     <title>HREXT05 Cruddy App</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="app.js"></script>
-    <link rel="stylesheet" href="app.css">
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+    <script src='app.js'></script>
+    <link rel = 'stylesheet' type='text/css' href='style.css'>
+    <link href="https://fonts.googleapis.com/css?family=Patrick+Hand|Schoolbell" rel="stylesheet">
   </head>
+
+
+<!--
+  - DELETE / RESET BUTTON GROUP to delete individual bears
+  - add to  css as well
+-->
+
+
   <body>
-    <input type="text" class="text-input" id="theKey" placeholder="Enter some text">
-    <button class="add-text-btn">Add text</button>
-    <button class="clear-cache-btn">Clear Entries</button>
-    <div class="show-text"></div>
+    <!---
+    <input type='text' class='text-input' id='theKey' placeholder='Enter some text'>
+    <button class='add-text-btn'>Add text</button>
+    <button class='clear-cache-btn'>Clear Entries</button>
+    <div class='show-text'></div>
+    --->
+
+    <div class='headerTitle'>
+      <h1> Welcome to The CRUDdy Virtual Bear Feeding Zoo!!</h1>
+    </div> 
+
+    <div class='homerow-container'>
+      <button id='delete'>reset / delete bears</button>
+    </div>
+
+
+
+    <div class='button-container'>
+
+      <div class='paddington-buttons'>
+        <button class='feed-bear' id='feed-paddington'>Feed Paddington marmalade</button>
+        <button class='steal-food' id='steal-from-paddington'>Steal marmalade from Paddington</button>
+      </div>
+
+      <div class='pooh-buttons'>
+        <button class='feed-bear' id='feed-pooh'>Feed Pooh hunny</button>
+        <button class='steal-food' id='steal-from-pooh' >Steal hunny from Pooh</button>
+      </div>
+
+      <div class='volibear-buttons'>
+        <button class='feed-bear'id='feed-volibear'>Feed Volibear Teemo</button>    
+        <button class='steal-food' id='ks-from-volibear' >KS Teemo from Volibear</button>
+      </div>
+
+    </div>
+
+    <div class='bear-container'>
+      <div class='single-bear-container'>
+        <div class='image-container'>
+          <img src='Bears/Paddington.png' class='bear-img' id='Paddington'>
+        </div>
+       
+      </div>
+
+      <div class='single-bear-container'>
+       <div class='image-container'>
+        <img src='Bears/Pooh.png' class='bear-img' id='Pooh'>
+       </div>
+      
+      </div>
+
+      <div class='single-bear-container'>
+        <div class='image-container'>
+          <img src='Bears/Volibear.png' class='bear-img' id='Volibear'>
+        </div> 
+      </div>
+
+    </div>
+
+
   </body>
 </html>
